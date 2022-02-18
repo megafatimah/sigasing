@@ -85,3 +85,4 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
+    <?php include_once "partials/scripts.php"?>
