@@ -44,6 +44,40 @@
                 file_exists('pages/admin/jabatan/jabatandelete.php') ? include 'pages/admin/jabatan/jabatandelete.php' : include 'pages/404.php';  
                 break;
 
+        // routing jabatan
+            case 'bagianread':
+                file_exists('pages/admin/bagian/bagianread.php') ? include 'pages/admin/bagian/bagianread.php' : include 'pages/404.php';  
+                break;
+
+            case 'bagiancreate':
+                file_exists('pages/admin/bagian/bagiancreate.php') ? include 'pages/admin/bagian/bagiancreate.php' : include 'pages/404.php';  
+                break;
+
+            case 'bagianupdate':
+                file_exists('pages/admin/bagian/bagianupdate.php') ? include 'pages/admin/bagian/bagianupdate.php' : include 'pages/404.php';  
+                break;
+
+            case 'bagiandelete':
+                file_exists('pages/admin/bagian/bagiandelete.php') ? include 'pages/admin/bagian/bagiandelete.php' : include 'pages/404.php';  
+                break;
+
+        // routing jabatan
+        case 'karyawanread':
+            file_exists('pages/admin/karyawan/karyawanread.php') ? include 'pages/admin/karyawan/karyawanread.php' : include 'pages/404.php';  
+            break;
+
+        case 'karyawancreate':
+            file_exists('pages/admin/karyawan/karyawancreate.php') ? include 'pages/admin/karyawan/karyawancreate.php' : include 'pages/404.php';  
+            break;
+
+        case 'karyawanupdate':
+            file_exists('pages/admin/karyawan/karyawanupdate.php') ? include 'pages/admin/karyawan/karyawanupdate.php' : include 'pages/404.php';  
+            break;
+
+        case 'karyawandelete':
+            file_exists('pages/admin/karyawan/karyawandelete.php') ? include 'pages/admin/karyawan/karyawandelete.php' : include 'pages/404.php';  
+            break;
+
             default:
                 include 'pages/404.php';    
         }
